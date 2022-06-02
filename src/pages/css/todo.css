@@ -1,0 +1,71 @@
+@import "~antd/dist/antd.css";
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  margin: 50px auto;
+}
+.todo_header {
+  background: rgb(187, 187, 230);
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.todo_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.todo_dropdown {
+  padding: 4px 0px 4px 0px;
+  border: 1px solid rgb(223, 212, 212);
+  border-radius: 2px;
+}
+.todo_dropdown select {
+  border: none;
+}
+.todo_dropdown select:focus {
+  border: none;
+}
+.todo_input Col select {
+  padding: 100px;
+}
+.todo_button {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.todo_list {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.todo_list_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1000px !important;
+  background-color: aliceblue;
+  padding: 10px 10px;
+  margin: 5px;
+  box-shadow: 2px 2px 2px rgb(213, 225, 235);
+}
+
+.error-message {
+  display: block;
+  color: red;
+  text-align: left;
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.hide-error-message {
+  display: none;
+}
